@@ -1,0 +1,30 @@
+{
+    "name": "uwuifyer",
+    "version": "1.0.0",
+    "description": "A lightweight Uwuifyer which also tries to keep a still readable form.",
+    "main": "./dist/index.js",
+    "module": "./dist/index.module.js",
+    "exports": "./dist/index.modern.js",
+    "source": "src/index.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TeraNovaLP/Uwuifyer"
+    },
+    "keywords": [
+        "uwu",
+        "owo",
+        "uwuifyer"
+    ],
+    "scripts": {
+        "build": "microbundle"
+    },
+    "author": "TeraNovaLP",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "typescript": "^4.6.3",
+        "microbundle": "^0.14.2"
+    }
+}
