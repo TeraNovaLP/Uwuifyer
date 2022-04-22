@@ -3,6 +3,8 @@
 </h1>
 
 [![ci](https://github.com/TeraNovaLP/Uwuifyer/workflows/CI/badge.svg)](https://github.com/TeraNovaLP/Uwuifyer/commits/master)
+[![npm](https://img.shields.io/npm/v/uwuifyer.svg)](https://www.npmjs.com/package/uwuifyer)
+[![size](https://badgen.net/bundlephobia/minzip/uwuifyer)](https://bundlephobia.com/package/uwuifyer)
 
 A lightweight uwuifyer for converting any words or phrases, which also tries to keep a still readable form. URL's remain untouched. With this toolkit you can achieve the unthinkable! **/^o^/**
 
