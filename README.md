@@ -21,6 +21,8 @@ import uwuifyer from "uwuifyer";
 uwuifyer("Some text that needs more cuteness.");
 ```
 
+### [Demo](https://codesandbox.io/s/uwuifyer-demo-9r60hs)
+
 ## Setup & Build
 Install all dependencies:
 ```
