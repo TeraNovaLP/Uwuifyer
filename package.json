@@ -4,7 +4,6 @@
     "description": "A lightweight Uwuifyer which also tries to keep a still readable form.",
     "main": "./dist/index.js",
     "module": "./dist/index.module.js",
-    "exports": "./dist/index.modern.js",
     "source": "src/index.ts",
     "files": [
         "dist/**/*"
@@ -19,12 +18,12 @@
         "uwuifyer"
     ],
     "scripts": {
-        "build": "microbundle"
+        "build": "microbundle --format cjs,esm --compress"
     },
     "author": "TeraNovaLP",
     "license": "Apache-2.0",
     "devDependencies": {
-        "typescript": "^4.6.3",
-        "microbundle": "^0.14.2"
+        "microbundle": "^0.14.2",
+        "typescript": "^4.6.3"
     }
 }
